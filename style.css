@@ -1,5 +1,18 @@
-.cuadrado {
-    width: 100%;
-    height: 100%;
-    color: blanchedalmond;
+.cu {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+   
+}
+
+h1{
+    color: yellow;
+}
+
+#id{
+    font-size: 30rem;
+}
+
+body{
+    width: 100vw;
 }
