@@ -1,0 +1,39 @@
+/* Estilos generales para centrar el banner */
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor del banner */
+.banner-container {
+    width: 100%;
+    overflow: hidden; /* Oculta el texto cuando sale del contenedor */
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Estilos del banner */
+.banner {
+    display: inline-block;
+    white-space: nowrap; /* Mantiene el texto en una sola línea */
+    position: relative;
+    animation: moverBanner 10s linear infinite; /* Animación CSS para mover el texto */
+}
+
+/* Animación para desplazar el banner de derecha a izquierda */
+@keyframes moverBanner {
+    0% {
+        transform: translateX(100%); /* Inicia fuera de la pantalla a la derecha */
+    }
+    100% {
+        transform: translateX(-100%); /* Se mueve hacia la izquierda fuera de la pantalla */
+    }
+}
+
