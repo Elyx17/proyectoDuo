@@ -54,37 +54,43 @@ body, html {
 
 
 /* CARDS */
-
+.caja-card {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
 .card-container {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    max-width: 65%; 
     gap: 20px; 
-  }
+}
 
-.card{
-    width: 50%; 
+.card {
+    flex: 1; 
+    max-width: 33.3%; 
     padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 8px;
     text-align: center;
     box-shadow: 0px 0px 10px 0px rgba(0, 84.36521739130426, 252, 0.6);
     border-style: solid;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px !important;
     margin: 25px;
     background: #040D1B !important;
     align-items: center;
-    border-color: #2BB8F4 !important;
+    border-color: #2BB8F4 !important; 
 }
 
-.p-card{
-    color: #E9E9E9;
-    font-family: poppins , sans-serif;
-    font-size: 16px;
-    margin: 0 0 28px;
-}
-
-.card-svg{
+.card-svg {
     color: #FC6600;;
     width: 25%;
     height: 25%;
@@ -92,6 +98,14 @@ body, html {
     padding-bottom: 15px; 
     margin-bottom: 15px; 
 }
+
+.p-card {
+    color: #E9E9E9;
+    font-family: poppins , sans-serif;
+    font-size: 16px;
+    margin: 0 0 28px;
+}
+
 
 /*fondo*/
 
