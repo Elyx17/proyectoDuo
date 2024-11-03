@@ -14,6 +14,8 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100vh;
+    list-style: none;
+    background-color: #040D1B;
 }
 
 /* Contenedor del banner */
@@ -50,3 +52,32 @@ body, html {
     }
 }
 
+/*Input*/
+
+.container-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.naranja{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: var(--color-cuarto);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    font-family: "Poppins", sans-serif;
+    font-style: inherit;
+    font-weight: inherit;
+    color: var(--color-terciario);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
