@@ -50,3 +50,71 @@ body, html {
     }
 }
 
+/* CARDS */
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+  }
+
+.card{
+    width: 50%; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 84.36521739130426, 252, 0.6);
+    border-style: solid;
+    border-radius: 25px 25px 25px 25px;
+    margin: 25px;
+    background: #040D1B !important;
+    align-items: center;
+    border-color: #2BB8F4 !important;
+}
+
+.p-card{
+    color: #E9E9E9;
+    font-family: poppins , sans-serif;
+    font-size: 16px;
+    margin: 0 0 28px;
+}
+
+.card-svg{
+    color: #FC6600;;
+    width: 25%;
+    height: 25%;
+    align-items: center; 
+    padding-bottom: 15px; 
+    margin-bottom: 15px; 
+}
+
+/*fondo*/
+
+.caja-input{
+    background-color: #040D1B;
+}
+
+.caja-separador{
+    background-image: linear-gradient(313deg, #FC6600 34%, #FF4600 100%);
+    height: 50px;
+}
+
+.caja-card{
+    background-color: #040D1B;
+}
+
+.caja-carrousel{
+    background-image: linear-gradient(180deg, #040D1B 46%, #001639 21%);
+}
+
+.caja-quien{
+    background-image: linear-gradient(180deg, #040D1B 0%, #0C0420 100%);
+}
+
+.caja-final{
+    background-color: #0c0420;
+    background-image:url(https://achievers.es/wp-content/uploads/2024/03/Pagina-web-imp.china_.png);
+    background-repeat:no-repeat;
+}
