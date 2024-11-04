@@ -15,7 +15,7 @@ body, html {
     padding: 0;
     height: 100vh;
     list-style: none;
-    background-color: #040D1B;
+    background-color: #040D1B !important;
 }
 
 /* Contenedor del banner */
@@ -25,21 +25,30 @@ body, html {
     overflow: hidden; /* Oculta el texto cuando sale del contenedor */
     color: var(--color-terciario);
     padding: 20px 0;
-    font-size: 24px;
+    margin-bottom: 20px;
+    
     text-align: center;
     background: linear-gradient(135deg,rgb(32, 32, 196) 0%,rgb(110, 193, 228) 100%);
+}
+
+.banner-container-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 /* Estilos del banner */
 .banner {
     font-family: "Poppins", sans-serif;
     font-weight: 900;
+    font-size: 26px;
     font-style: normal;
     color: #030303;
     display: inline-block;
     white-space: nowrap; /* Mantiene el texto en una sola línea */
     position: relative;
-    animation: moverBanner 10s linear infinite; /* Animación CSS para mover el texto */
+    animation: moverBanner 15s linear infinite; /* Animación CSS para mover el texto */
 }
 
 /* Animación para desplazar el banner de derecha a izquierda */
@@ -60,24 +69,52 @@ body, html {
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
+    margin: auto;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: auto;
+}
+
+.container-input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 320px;
+    flex-wrap: wrap;
+    text-align: start;
 }
 
 .naranja{
-    font-family: "Poppins", sans-serif;
+    font-family: sans-serif;
     font-weight: 900;
     font-style: normal;
+    font-size: 32px;
     color: var(--color-cuarto);
     width: 100%;
     display: flex;
-    justify-content: center;
+    
 }
 
 .texto{
     font-family: "Poppins", sans-serif;
     font-style: inherit;
-    font-weight: inherit;
+    font-size: 34px;
+    font-weight: 900;
     color: var(--color-terciario);
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.img-portada{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-portada img{
+    width: 50%;
 }
